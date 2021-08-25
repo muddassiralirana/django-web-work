@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">Navbar</a>
+            <a href="login.html"><button class="btn btn-outline-success" type="submit">LOGIN</button></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center mt-20">
+            <div class="col-6">
+                <h2>Signup</h2>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Username</label>
+                    <input type="text" class="form-control" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Joining Date</label>
+                    <input type="date" class="form-control" id="joinDate">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">BackUp Person</label>
+                    <input type="text" class="form-control" id="BackUp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Manager</label>
+                    <input type="text" class="form-control" id="Manager">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Work Role</label>
+                    <input type="text" class="form-control" id="role">
+                </div>
+               
+
+                <br>
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                      Team
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                      <li><a class="dropdown-item" href="#">devloper</a></li>
+                      <li><a class="dropdown-item" href="#">designer</a></li>
+                      <li><a class="dropdown-item" href="#">programer</a></li>
+                    </ul>
+                  </div>
+
+            
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                     Job Nature
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                      <li><a class="dropdown-item" href="#">Part Time</a></li>
+                      <li><a class="dropdown-item" href="#">Full Time</a></li>
+                      <li><a class="dropdown-item" href="#">Hourly basis</a></li>
+                    </ul>
+                  </div>
+
+
+
+
+
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button onclick="" type="submit" class="btn btn-primary">
+                        <span id="signup">Signup</span>
+                   
+                
+                </button>
+                <button onclick="" type="submit" class="btn btn-primary">
+                    <span id="cancel">Cancel</span>
+                
+            </button>
+                
+            </div>
+            
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
